@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
     compile group: 'org.jsoup', name: 'jsoup', version: '1.10.2'
+    compileOnly group: 'org.projectlombok', name:'lombok', version:'1.16.16'
+    implementation 'org.mariadb.jdbc:mariadb-java-client:2.3.0'
     testCompile group: 'org.jsoup', name: 'jsoup', version: '1.10.2'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
